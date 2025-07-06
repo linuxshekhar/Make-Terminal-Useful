@@ -3,14 +3,14 @@
 - Install Plugins
 
   - vim-airline
-
-    `$ apt search vim-airline`
-
-    `$ sudo apt install vim-airline`
+    ```sh
+    $ apt search vim-airline
+    $ sudo apt install vim-airline 
+    ```
 
   - vim-gitgutter
-
-    `$ apt search gitgutter`
-
-    `$ sudo apt install vim-gitgutter`
-
+    ```sh
+    $ apt search gitgutter
+    $ sudo apt install vim-gitgutter
+    ```
+- We can also add the same in vimrc as well
