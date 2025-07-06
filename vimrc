@@ -109,13 +109,23 @@ Plug 'https://github.com/tweekmonster/django-plus.vim'
 
 Plug 'https://github.com/pangloss/vim-javascript'
 
+Plug 'vim-airline/vim-airline'
+
+Plug 'airblade/vim-gitgutter'
+
 call plug#end()
 
 " Spell check syntax highliting
  
 let g:gruvbox_guisp_fallback = "bg"
 
- 
+" Airline configuration
+" Enable airline powerline symbols (needs patched font)
+let g:airline_powerline_fonts = 1
+let g:airline_theme='gruvbox'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#formatter = 'default'
+
 "needed for italics, only works in some terminals
 let g:gruvbox_italic=1 
 "change to the change coloursheme to whaever I prefer at the time 
@@ -123,7 +133,16 @@ colorscheme gruvbox
 set background=dark
 "not sure if this is needed or not, or even if it works. Might just be default
 "iunno lol
-set statusline=%F[%L][%{&ff}]%y[%04l,%04v]
+"set statusline=%F[%L][%{&ff}]%y[%04l,%04v]
+
+" Refresh gitgutter signs faster
+set updatetime=100
+
+" Optional: custom signs
+let g:gitgutter_sign_added = '+'
+let g:gitgutter_sign_modified = '~'
+let g:gitgutter_sign_removed = '_'
+
 
 
 "hide the options in gvim
