@@ -1,5 +1,16 @@
-# Some Addition Installation to make your terminal productive
+## Some Addition Installation to make your terminal productive
 
 - Install Plugins
-  `$ apt search vim-airline`
-  `$ sudo apt install vim-airline`
+
+  - vim-airline
+
+    `$ apt search vim-airline`
+
+    `$ sudo apt install vim-airline`
+
+  - vim-gitgutter
+
+    `$ apt search gitgutter`
+
+    `$ sudo apt install vim-gitgutter`
+
