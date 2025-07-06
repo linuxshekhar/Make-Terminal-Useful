@@ -39,5 +39,20 @@ Welcome! This is a curated setup for improving your command-line environment wit
 
 ### Starship Prompt
 
-```bash
-~/projects/my-repo on  main [!]
+   ```bash
+   ~/projects/my-repo on  main [!]
+   ```
+
+### Vim Plugins in Action
+
+-  ```bash
+   Press <Space>g to toggle Goyo
+   ```
+- Git changes shown in left gutter
+
+- Airline statusline with Git branch
+
+---
+
+### 📝 Author
+Sherlock Holmes
