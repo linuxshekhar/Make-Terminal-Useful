@@ -32,7 +32,7 @@ Welcome! This is a curated setup for improving your command-line environment wit
 
 - [Install Vim Config](./install-vim.md)
 - [Install Starship Prompt](./install-starship.md)
-
+- [Setup ZSH Plugins](./zsh-plugins.md)
 ---
 
 ## 🧪 Preview
