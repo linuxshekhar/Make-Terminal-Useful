@@ -24,6 +24,12 @@ Welcome! This is a curated setup for improving your command-line environment wit
 - Git branch/status info in prompt
 - Performance-friendly and minimal
 
+### Zsh Plugin Features
+- Autosuggestions while typing commands (zsh-autosuggestions)
+- Real-time syntax highlighting (zsh-syntax-highlighting)
+- Fast and lightweight syntax parsing (fast-syntax-highlighting)
+- Context-aware autocompletion with inline suggestions (zsh-autocomplete)
+
 ---
 
 ## 📁 Installation
